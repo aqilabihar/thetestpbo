@@ -1,0 +1,14 @@
+{
+    "name": "suraqil/thetestpbo",
+    "description": "this is the test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "SURAQIL",
+            "email": "aqilabihar123@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.7"
+    }
+}
