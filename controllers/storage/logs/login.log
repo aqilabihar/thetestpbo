@@ -1,0 +1,6 @@
+[2024-08-23T11:14:22.735283+02:00] login_logger.INFO: Login attempt {"username":true} []
+[2024-08-23T11:14:33.880688+02:00] login_logger.INFO: Login attempt {"username":true} []
+[2024-08-23T11:15:05.837775+02:00] login_logger.INFO: Login attempt {"username":true} []
+[2024-08-23T11:15:13.258305+02:00] login_logger.INFO: Login attempt {"username":true} []
+[2024-08-23T11:15:22.065484+02:00] login_logger.INFO: Login attempt {"username":true} []
+[2024-08-23T11:15:42.320555+02:00] login_logger.INFO: Login attempt {"username":true} []

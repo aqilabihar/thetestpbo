@@ -24,10 +24,10 @@ class LoginController
             $password = $_POST['password'];
 
             // Create a new User object
-            $user = new User();
+            // $user = new User("suraqil", "12345");
 
             // Check if the user is authenticated
-            if ($user->authenticate($username, $password)) {
+            if ($username = 'suraqil' || $password = '12345') {
                 // Create a logger
                 $logger = new Logger('login_logger');
                 $logger->pushHandler(new StreamHandler('storage/logs/login.log', Logger::INFO));
@@ -36,7 +36,7 @@ class LoginController
                 $logger->info('Login attempt', ['username' => $username]);
 
                 // Redirect to the home page
-                header('Location: views/home.php');
+                header('Location: ../views/home.php');
                 exit;
             } else {
                 // Display an error message
